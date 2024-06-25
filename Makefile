@@ -1,5 +1,5 @@
 #пересобирает проект с нуля
-init: docker-down-clear docker-pull docker-build docker-up
+init: docker-down-clear docker-pull docker-build docker-up api-init
 
 up: docker-up
 down: docker-down
@@ -16,6 +16,11 @@ docker-pull:
 
 docker-build:
 	docker compose build
+
+api-init: api-composer-install
+
+api-composer-install:
+	docker compose run --rm api-php-cli composer install
 
 docker-down-clear:
 	docker compose down -v --remove-orphans
