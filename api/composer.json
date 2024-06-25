@@ -1,0 +1,23 @@
+{
+    "name": "potseluyev/demo-auction",
+    "description": "demo-auction",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "slim/psr7": "^1.7",
+        "slim/slim": "^4.14"
+    },
+    "require-dev": {
+	"roave/security-advisories": "dev-master"
+    },
+    "license": "BSD-3-Clause",
+    "config": {
+        "process-timeout": 0,
+	"sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Potseluyev Dmitrij"
+        }
+    ]
+}
