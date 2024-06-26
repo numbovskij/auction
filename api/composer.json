@@ -6,7 +6,8 @@
         "php": "^8.0",
         "php-di/php-di": "^7.0",
         "slim/psr7": "^1.7",
-        "slim/slim": "^4.14"
+        "slim/slim": "^4.14",
+        "symfony/console": "^7.1"
     },
     "require-dev": {
 	"roave/security-advisories": "dev-master"
