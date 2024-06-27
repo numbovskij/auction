@@ -1,12 +1,19 @@
 FROM php:8.3-cli-alpine
 
-RUN apk update && apk add --no-cache unzip
+# Установка необходимых пакетов и Xdebug
+RUN apk add --no-cache autoconf g++ make linux-headers \
+    && pecl install xdebug \
+    && rm -rf /tmp/pear \
+    && docker-php-ext-enable xdebug
+
+RUN apk add --no-cache unzip
 
 # Перемещение файла конфигурации PHP для среды разработки
-RUN mv $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini
+RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
-# Копирование пользовательских конфигураций PHP в директорию conf.d
+# Копирование конфигураций PHP
 COPY ./common/php/conf.d /usr/local/etc/php/conf.d
+COPY ./development/php/conf.d /usr/local/etc/php/conf.d
 
 # Установка переменной окружения для Composer
 ENV COMPOSER_ALLOW_SUPERUSER=1
