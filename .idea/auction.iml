@@ -3,13 +3,19 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/api/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/api/var" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/fig/http-message-util" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/serializable-closure" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/overtrue/phplint" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/invoker" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-factory" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-server-handler" />
@@ -18,15 +24,24 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/cache-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/options-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-intl-grapheme" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-intl-normalizer" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/service-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/yaml" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

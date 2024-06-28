@@ -36,6 +36,18 @@
       <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api/vendor/overtrue/phplint" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/var-exporter" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
@@ -105,6 +117,11 @@
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/api/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
