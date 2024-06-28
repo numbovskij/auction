@@ -18,5 +18,4 @@ class JsonResponse extends Response
             (new StreamFactory())->createStream(json_encode($data, JSON_THROW_ON_ERROR))
         );
     }
-
 }
