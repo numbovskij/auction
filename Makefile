@@ -5,6 +5,7 @@ up: docker-up
 down: docker-down
 restart: up down
 lint: api-lint
+analyze: api-analyze
 
 docker-up:
 	docker compose up -d
@@ -29,3 +30,6 @@ docker-down-clear:
 api-lint:
 	docker compose run --rm api-php-cli composer lint
 	docker compose run --rm api-php-cli composer cs-check
+
+api-analyze:
+	docker compose run --rm api-php-cli composer psalm

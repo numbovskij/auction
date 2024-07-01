@@ -8,10 +8,11 @@ $files = array_merge(
 );
 
 $configs = array_map(
-    static function (string $file) {
+    /** @psalm-suppress UnresolvableInclude */
+    static function (string $file): array {
         return require $file;
     },
-    $files
+    $files,
 );
 
 return array_merge_recursive(... $configs);

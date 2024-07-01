@@ -6,13 +6,26 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/api/var" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/amphp/amp" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/amphp/byte-stream" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/felixfbecker/advanced-json-rpc" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/felixfbecker/language-server-protocol" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/fidry/cpu-core-counter" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/fig/http-message-util" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/netresearch/jsonmapper" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/overtrue/phplint" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/invoker" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/phpstan/phpdoc-parser" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/cache" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/event-dispatcher" />
@@ -22,8 +35,10 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/http-server-middleware" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/sebastian/diff" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/spatie/array-to-xml" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/squizlabs/php_codesniffer" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/cache-contracts" />
@@ -31,6 +46,7 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/filesystem" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/options-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/polyfill-ctype" />
@@ -43,6 +59,8 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/string" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/vimeo/psalm" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/webmozart/assert" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
