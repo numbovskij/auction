@@ -4,9 +4,12 @@ init: docker-down-clear docker-pull docker-build docker-up api-init
 up: docker-up
 down: docker-down
 restart: up down
+check: lint analyze test
 lint: api-lint
 analyze: api-analyze
 test: api-test
+test-unit: api-test-unit
+test-functional: api-test-functional
 
 docker-up:
 	docker compose up -d
@@ -37,3 +40,7 @@ api-analyze:
 
 api-test:
 	docker compose run --rm api-php-cli composer test
+api-test-unit:
+	docker compose run --rm api-php-cli composer test -- --testsuite=unit
+api-test-functional:
+	docker compose run --rm api-php-cli composer test -- --testsuite=functional

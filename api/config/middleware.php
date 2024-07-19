@@ -8,5 +8,5 @@ use Slim\App;
 return static function (App $app, ContainerInterface $container): void {
     $config = $container->get('config');
 
-    $app->addErrorMiddleware($config['debug'], true, true);
+    $app->addErrorMiddleware($config['debug'], $config['env'] !== 'test', true);
 };

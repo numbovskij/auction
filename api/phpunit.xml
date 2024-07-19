@@ -10,8 +10,11 @@
          failOnRisky="true"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="default">
-            <directory>tests</directory>
+        <testsuite name="unit">
+            <directory suffix="Test.php">tests/Unit</directory>
+        </testsuite>
+        <testsuite name="functional">
+            <directory suffix="Test.php">tests/Functional</directory>
         </testsuite>
     </testsuites>
 
@@ -20,4 +23,8 @@
             <directory>src</directory>
         </include>
     </source>
+    <php>
+        <env name="APP_ENV" value="test" force="true"/>
+        <env name="APP_DEBUG" value="1" force="true"/>
+    </php>
 </phpunit>
