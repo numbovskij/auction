@@ -22,6 +22,11 @@
             "App\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
     "license": "BSD-3-Clause",
     "config": {
         "process-timeout": 0,
@@ -32,7 +37,8 @@
 	"lint": "phplint",
 	"cs-check": "phpcs",
 	"cs-fix": "phpcbf",
-	"psalm": "psalm"
+	"psalm": "psalm",
+	"test": "phpunit --colors=always"
     },
     "authors": [
         {
