@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 class JsonResponseTest extends TestCase
 {
     /**
-     * @covers \App\Http\JsonResponse::someMethod
+     * @covers \App\Http\JsonResponse
      */
     public function testInt(): void {
         $response = new JsonResponse(12);

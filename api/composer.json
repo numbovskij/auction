@@ -38,6 +38,7 @@
 	"cs-check": "phpcs",
 	"cs-fix": "phpcbf",
 	"psalm": "psalm",
+	"test-coverage": "phpunit --colors=always --coverage-html var/test/coverage",
 	"test": "phpunit --colors=always"
     },
     "authors": [

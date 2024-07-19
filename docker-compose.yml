@@ -41,5 +41,7 @@ services:
     build:
       context: api/docker
       dockerfile: development/php-cli/Dockerfile
+    environment:
+      XDEBUG_MODE: coverage
     volumes:
       - ./api:/app

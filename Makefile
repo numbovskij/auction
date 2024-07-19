@@ -1,5 +1,5 @@
 #пересобирает проект с нуля
-init: docker-down-clear docker-pull docker-build docker-up api-init
+init: api-clear docker-down-clear docker-pull docker-build docker-up api-init
 
 up: docker-up
 down: docker-down
@@ -23,7 +23,14 @@ docker-pull:
 docker-build:
 	docker compose build
 
-api-init: api-composer-install
+api-init: api-composer-install api-permissions
+
+api-clear:
+	docker run --rm -v ${PWD}/api:/app -w /app alpine sh -c 'rm -rf var/cache/* var/log/* var/test/*'
+
+api-permissions:
+	docker run --rm -v ${PWD}/api:/app -w /app alpine chmod 777 var/cache var/log var/test
+
 
 api-composer-install:
 	docker compose run --rm api-php-cli composer install
@@ -40,7 +47,12 @@ api-analyze:
 
 api-test:
 	docker compose run --rm api-php-cli composer test
+
 api-test-unit:
 	docker compose run --rm api-php-cli composer test -- --testsuite=unit
+
 api-test-functional:
 	docker compose run --rm api-php-cli composer test -- --testsuite=functional
+
+api-test-coverage:
+	docker-compose run --rm api-php-cli composer test-coverage
