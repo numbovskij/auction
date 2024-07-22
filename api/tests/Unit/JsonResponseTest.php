@@ -1,8 +1,8 @@
 <?php
 
+declare(strict_types=1);
 
-
-namespace Test\Unit\Http;
+namespace Test\Unit;
 
 use App\Http\JsonResponse;
 use PHPUnit\Framework\TestCase;
