@@ -96,6 +96,9 @@
       <path value="$PROJECT_DIR$/api/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/api/vendor/sebastian/code-unit" />
       <path value="$PROJECT_DIR$/api/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/api/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/api/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/api/vendor/ramsey/uuid" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

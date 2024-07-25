@@ -5,8 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/api/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/api/tests" isTestSource="true" packagePrefix="Test\" />
+      <sourceFolder url="file://$MODULE_DIR$/api/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/api/src/Http/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api/src/Auth/Test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/api/var" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/amphp/amp" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/amphp/byte-stream" />
@@ -87,6 +89,9 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/sebastian/version" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/ramsey/uuid" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

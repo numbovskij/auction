@@ -22,9 +22,9 @@ class EmailTest extends TestCase
 
     public function testCase(): void
     {
-        $email = new Email($value = 'TesT@example.com');
+        $email = new Email('EmAil@app.test');
 
-        self::assertEquals($value, $email->getValue());
+        self::assertEquals('email@app.test', $email->getValue());
     }
 
     public function testIncorrect(): void

@@ -12,7 +12,8 @@ class JsonResponseTest extends TestCase
     /**
      * @covers \App\Http\JsonResponse
      */
-    public function testInt(): void {
+    public function testInt(): void
+    {
         $response = new JsonResponse(12);
 
         self::assertEquals(12, $response->getBody()->getContents());
